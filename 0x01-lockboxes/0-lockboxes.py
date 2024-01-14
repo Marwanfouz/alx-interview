@@ -1,5 +1,11 @@
 #!/usr/bin/python3
 def canUnlockAll(boxes):
+    """Method that determines if all the boxes can be opened.
+    Args:
+        boxes: list of lists
+    Returns:
+        True if all boxes can be opened, else return False
+    """
     li = [0]
     lin = 0
     while (lin < 2):
