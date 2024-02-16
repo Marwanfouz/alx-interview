@@ -1,8 +1,8 @@
 #!/usr/bin/node
 
 const request = require('request');
-id = process.argv[2]
-films = `https://swapi-api.hbtn.io/api/films/${id}`
+const id = process.argv[2];
+const films = `https://swapi-api.hbtn.io/api/films/${id}`;
 
 request(films, (err, res, body) => {
   if (err) throw err;
